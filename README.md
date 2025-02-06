@@ -70,7 +70,7 @@ curl https://content-xflix-backend.azurewebsites.net/v1/videos/60331f421f1d093ab
     - [Stock data API](https://www.alphavantage.co/documentation/)
 - Further Reading (Optional)
     - [Understanding And Using REST APIs](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/) 
-    - JSON in 10 minutes - Video - https://www.youtube.com/watch?v=iiADhChRriM
+    - [JSON in 10 minutes](https://www.youtube.com/watch?v=iiADhChRriM)
     - [Path parameter vs Query parameter](https://medium.com/@fullsour/when-should-you-use-path-variable-and-query-parameter-a346790e8a6d)
     - [Idempotency in REST APIs](https://www.restapitutorial.com/lessons/idempotency.html)
     - [Capturing HTTP network packets using Wireshark](https://en.wikiversity.org/wiki/Wireshark/HTTP)
