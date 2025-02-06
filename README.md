@@ -39,3 +39,23 @@ REST is one architectural pattern used, NOT the only one. There are some has-bee
     - The server responds with a 200 status code and JSON data on line 77.
     - You’ll find the Hypertext Transfer Protocol (HTTP) being used for communication
     - The JSON data returned is formatted and displayed in the lower pane
+
+## REST API calls using Programs
+1. Execute the below `curl` command on the terminal to make a REST API call to https://content-xflix-backend.azurewebsites.net/v1/videos/60331f421f1d093ab5424489
+```
+curl https://content-xflix-backend.azurewebsites.net/v1/videos/60331f421f1d093ab5424489
+```
+2. create new file in Java/Python
+    - Choose your pick from Java / Python to fetch API data using one of these languages.
+    - Python
+        - copy code from [main.py](./main.py)
+        - Open terminal and then run the following commands:
+        ```
+        python3 main.py
+        ```
+    - Java
+        - copy code from [main.java](./main.java)
+        - Open terminal and then run the following commands:
+        ```
+        java main.java
+        ```
