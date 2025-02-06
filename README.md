@@ -24,6 +24,9 @@ XML is another popular format for data transfer between applications.
     - Path parameter is used to identify and return a specific resource
     - Query parameter is used to filter or search for resources
     - Example [EPI_EndPoint](./API_EndPoint.png)
+    <br>
+    - For an API that needs to take two search parameters - genres and contentRating, the request URL should be like this https://crio-xflix.herokuapp.com/v1/videos?genres=Movies&contentRating=12%2B
+        - Note: Here, 12%2B is the url encoded version of “12+”. Special characters like “+” need to be encoded as they have other meanings when used in a URL.
 
 ## REST and HTTP
 - REST API calls are made on top of the HTTP protocol. 
